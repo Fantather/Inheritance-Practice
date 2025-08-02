@@ -19,6 +19,7 @@ namespace Inheritance_Practice.Task_4
 
         public override double GetArea()
         {
+            Console.Write("RightTriangle");
             return Base * (Height / 2);
         }
     }

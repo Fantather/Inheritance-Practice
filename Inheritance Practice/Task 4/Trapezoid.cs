@@ -21,6 +21,7 @@ namespace Inheritance_Practice.Task_4
 
         public override double GetArea()
         {
+            Console.Write("Trapezoid");
             return ((TopBase + BottomBase) * Height) / 2;
         }
     }

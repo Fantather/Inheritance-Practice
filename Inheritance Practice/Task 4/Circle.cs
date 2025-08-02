@@ -18,6 +18,7 @@ namespace Inheritance_Practice.Task_4
 
         public override double GetArea()
         {
+            Console.Write("Circle");
             return Pi * Radius * Radius;
         }
     }
